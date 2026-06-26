@@ -1,0 +1,29 @@
+{
+  "name": "ai-tool-router",
+  "version": "1.0.0",
+  "description": "Pick the right AI tool for the job. Scan, rank, and route tasks across installed AI agents.",
+  "type": "module",
+  "bin": {
+    "ai-tool-router": "cli.js",
+    "tool-router": "cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "router",
+    "agent",
+    "claude",
+    "codex",
+    "kimi",
+    "gemini",
+    "cursor"
+  ],
+  "author": "Moataz Mohamed <motazhamada@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
